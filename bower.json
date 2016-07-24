@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "description": "Starter code for an angular application",
+  "version": "1.0.0",
+  "homepage": "http://localhost:3000/",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "*",
+    "bootstrap": "*",
+    "angular-bootstrap": "*",
+    "angular-route": "*",
+    "jquery": "*"
+  }
+}
