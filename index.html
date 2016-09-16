@@ -14,17 +14,21 @@
     <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
     <!-- Application: -->
     <script type="text/javascript" src="app.js"></script>
+    <!-- Services: -->
+    <script type="text/javascript" src="services/service.js"></script>
+    <script type="text/javascript" src="services/factory.js"></script>
     <!-- Controllers: -->
     <script type="text/javascript" src="controllers/mainController.js"></script>
     <script type="text/javascript" src="controllers/otherController.js"></script>
-
     <!-- Directives: -->
-    <!-- Services: -->
+    <script type="text/javascript" src="directives/directive.js"></script>
+
 
 </head>
 <body ng-app="app" ng-controller="mainController">
 
     <h3 ng-bind="greeting"></h3>
+    <directive-example message="{{greeting}}"></directive-example>
 
     <div ng-view></div>
 
